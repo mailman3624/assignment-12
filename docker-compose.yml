@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: backend_service
+    ports:
+      - "3000:3000"
+      - "5000:5000"
+    environment:
+      - PORT=3000
+      - DB_HOST=host.docker.internal
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=
+      - DB_NAME=myshop
+      - JWT_KEY=jwt-secret-key
+      - DATABASE_URL=mysql://root:@host.docker.internal:3306/myshop
+
+  frontend:
+    build: ./frontend
+    container_name: frontend_service
+    ports:
+      - "81:80"
+    depends_on:
+      - backend

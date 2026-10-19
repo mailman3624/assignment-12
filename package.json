@@ -1,0 +1,11 @@
+{
+  "name": "assignment-12",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "npm --prefix backend run dev",
+    "seed": "node backend/sql/seed.js"
+  }
+}

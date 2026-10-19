@@ -1,0 +1,143 @@
+.home-wrapper {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.top-header-bar {
+  background-color: #faebd7;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-username {
+  font-size: 16px;
+  color: #111111;
+}
+
+.header-btn {
+  padding: 4px 12px;
+  font-size: 15px;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  background-color: #efefef;
+  color: #000000;
+  cursor: pointer;
+}
+
+.header-btn:hover {
+  background-color: #e2e2e2;
+}
+
+.admin-mode-toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px 0;
+}
+
+.admin-switch-btn {
+  background-color: #7fffd4;
+  border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.admin-switch-btn:hover {
+  background-color: #66eec2;
+}
+
+.home-content {
+  padding: 10px 32px 40px;
+}
+
+.home-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.admin-menu-section {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+.admin-menu-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 12px 0 16px;
+}
+
+.menu-ul,
+.user-ul {
+  padding-left: 28px;
+  margin: 12px 0 24px;
+}
+
+.menu-li,
+.user-li {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.admin-menu-section .menu-li {
+  font-size: 22px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 16px;
+  margin-right: 1px;
+}
+
+.choose-rating-label {
+  background-color: #7fffd4;
+  padding: 1px 4px;
+  margin-left: 6px;
+}
+
+.rating-select,
+.role-select {
+  font-size: 16px;
+  padding: 1px 4px;
+  margin-left: 2px;
+}
+
+.new-food-box {
+  margin-top: 20px;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+.new-food-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.new-food-field {
+  margin-bottom: 6px;
+  font-size: 22px;
+}
+
+.new-food-field input,
+.new-food-field select {
+  font-size: 18px;
+  padding: 2px 6px;
+}
+
+.add-menu-btn {
+  margin-top: 4px;
+  padding: 4px 10px;
+  font-size: 18px;
+  border: 1px solid #767676;
+  border-radius: 3px;
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+.add-menu-btn:hover {
+  background-color: #e2e2e2;
+}
